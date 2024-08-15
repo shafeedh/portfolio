@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+/* Navbar */
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.list-items{
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.links:hover{
+    color:orangered;
+    text-decoration: underline;
+}
+
+/* home */
+#homeContent{
+    margin: 13% 0% 0% 8%;
+}
+#uname{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Playwrite BE VLG", cursive;
+
+}
+#lname{
+    font-family: "Playwrite BE VLG", cursive;
+    color: rgb(253, 65, 87);
+
+}
+#udetails{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.download{
+    text-decoration: none;
+    background-color: black;
+    color: azure;
+    padding: 10px;
+    border-radius: 10px;
+}
+.group1{
+    position: absolute;
+    bottom: -50px;
+    right: 30px;
+    
+}
+#about{
+    margin: 13% 8% 0% 8%;
+}
+.section-head{
+    text-align: center;
+}
+.main-head{
+    font-size: 40px;
+    font-family: "Playwrite BE VLG", cursive;
+    color: navy;
+
+}
+.sub-head{
+    font-size: 20px;
+    font-family: "Playwrite BE VLG", cursive;
+    color: greenyellow;
+}
+.section-body{
+    display: flex;
+    align-items: center;
+}
+#about-image >img{
+    width:400px;
+}
+.about-content{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+    
+}
+.information{
+    margin-top: 20px;
+}
+.info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px
+}
+.info-box>span{
+    margin-left: 20px;
+    
+}
+#homeImages #shape:hover {
+    left: 5px;
+}
+#homeImages #girl:hover {
+    left: -20px;
+}
+.skill-content{
+    display: grid;
+    grid-template-columns: 2,1fr;
+    align-items: center;
+    margin-top: 20px;
+    gap: 2rem;
+}
+#skills{
+    margin: 8% 8% 0% 8%;
+}
+.skillimg{
+ width: 400px;
+ margin-left: 800px;
+ margin-top: -360px;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0px;
+    position: relative;
+    width: 50%;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 5px;
+}
+.html-bar{
+    width: 93%;
+    background-color: yellow;
+}
+.html-ba{
+    width: 90%;
+    background-color: yellow;
+}
+.html-b{
+    width: 85%;
+    background-color: yellow;
+
+}
+.html-bn{
+    width: 88%;
+    background-color: yellow;
+
+}
+
+/* contacts */
+#contacts{
+    margin: 8%;
+
+}
+.icon-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 10px;
+}
+.brand{
+    color: black;
+    font-size: 26px;
+}
+.brand:hover{
+    color: white;
+}
+.icons:hover{
+    background-image: linear-gradient(to bottom right,white,yellow,orange,red,blue);
+    animation: rotate 2s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+   
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+      }
+    80%{
+        transform: rotate(30deg);
+      }
+    100%{
+        transform: rotate(-30deg);
+      }
+}
+#copyright{
+    text-align: center;
+    font-weight: bold;
+}
+.arrow-up{
+    float:right;
+    margin: -40px 30px 30px 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: orange;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: greenyellow;
+    border-radius: 10px;
+}
